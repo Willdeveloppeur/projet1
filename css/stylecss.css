@@ -1,0 +1,111 @@
+body{
+    width: 100%;
+}
+
+a {
+    color: black;
+}
+
+/*premiere coupure*/
+.premier{
+    margin-left: 350px;
+    display: flex;
+    flex-direction: row;
+    width: 1200px;
+    
+    }
+
+#signin{
+    margin-left: 80%;
+    border: none;
+}
+#getstarted{
+    border-radius: 5px;
+    border: #b174e9 1px solid;
+}
+input {
+    color: #b174e9;
+    width: 78px;
+    height: 30px;
+    margin: 1px;
+    text-align: center;
+    }
+/*deuxieme partie*/
+
+#onezero {
+    padding-left: 350px;
+}
+.deuxieme {
+       
+        box-shadow: 1px 5px 50px rgb(243, 235, 235);
+        border-top: 1px solid rgb(223, 218, 218);
+        display: flex;
+        flex-direction: row;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: bold;
+        color: grey;
+    }
+#deux li{
+    display: inline;
+    padding: 40px;
+}
+.titre {
+    
+        text-align: center;
+}
+
+/* commentaire photo */
+#photo {
+    text-align: center;
+}
+/*troisieme*/
+
+.troisieme {
+    color: rgb(173, 156, 156);
+    font-size: 30px;
+    padding-left: 550px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.troisieme h1 {
+    margin-bottom: -9px;
+    color: black;
+    
+}
+
+/*tweeter*/
+#ident {
+    float: left;
+    border-radius: 50%;
+    
+}
+#tweeter span{
+    color: rgb(177, 170, 170);
+}
+#follow {
+    color: #b174e9;
+    width: 50px;
+    height: 30px;
+    text-align: center;
+}
+
+#tweeter{
+    margin-left: 550px;
+}
+
+/*texte principal*/
+.text{
+    font-size: 20px;
+    margin: 0 350px ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 0px 200px;
+}
+.text span {
+    float: left;
+    font-size: 80px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    margin-right: 15px;
+}
