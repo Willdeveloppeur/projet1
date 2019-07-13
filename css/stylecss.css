@@ -1,5 +1,6 @@
 body{
     width: 100%;
+    font-family: 'EB Garamond', serif;
 }
 
 a {
@@ -16,7 +17,7 @@ a {
     }
 
 #signin{
-    margin-left: 80%;
+    margin-left: 82%;
     border: none;
 }
 #getstarted{
@@ -41,13 +42,13 @@ input {
         border-top: 1px solid rgb(223, 218, 218);
         display: flex;
         flex-direction: row;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        font-weight: bold;
-        color: grey;
+        font-family: 'Encode Sans', sans-serif;
+        font-size: 15px;
+        color: rgb(185, 181, 181);
     }
 #deux li{
     display: inline;
-    padding: 40px;
+    padding: 23px;
 }
 .titre {
     
@@ -57,6 +58,8 @@ input {
 /* commentaire photo */
 #photo {
     text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 30px;
 }
 /*troisieme*/
 
@@ -91,21 +94,115 @@ input {
 
 #tweeter{
     margin-left: 550px;
+    }
+#tweeter p{
+    line-height: 10px;
 }
 
 /*texte principal*/
 .text{
-    font-size: 20px;
-    margin: 0 350px ;
+    font-size: 22px;
+    margin: 0 250px ;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    padding: 0px 200px;
+    padding: 0px 330px;
+    letter-spacing: .6px;
 }
 .text span {
     float: left;
-    font-size: 80px;
+    font-size: 60px;
     border-radius: 50%;
     background-color: black;
     color: white;
-    padding: 10px 20px;
+    padding: 35px 35px;
     margin-right: 15px;
+    font-family: 'Encode Sans', sans-serif;
+}
+p {
+    line-height: 30px;
+}
+
+/*bloc gauche texte*/
+
+#blocgauche{
+    
+    position: absolute;
+    top: 1410px;
+    left: 350px;
+    padding-right: 0px;
+    
+}
+#loggauche p{
+   font-size: 16px;
+    margin-top: -3px;
+   font-family: 'Oswald', sans-serif;
+   margin-right: 1415px;
+   color: rgb(139, 136, 136);
+   font-weight: bold;
+   
+}
+
+#follow2{
+    color: #b174e9;
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    
+}
+
+#pictogauche{
+    position: absolute;
+    top: 370px;
+    
+}
+
+#pictoclap{
+    padding-top: 30px;
+    
+    position: absolute;
+    top: 300px;
+}
+
+
+
+
+
+/*lien sous texte principal*/
+.boutonsliens{
+    margin-left: 525px;
+    display: flex;
+    flex-direction: row;
+    
+}
+#liens li{
+    
+    display: inline;
+    padding: 6px 6px;
+    margin-left: 10px;
+    font-size: 15px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    letter-spacing: .3px;
+    color: rgb(112, 107, 107);
+    background-color: rgb(231, 223, 223);
+    border-radius: 2px;
+    
+    
+}
+
+/*banniere follow*/
+
+.banniere {
+    
+    padding-top: 40px;
+    display: inline;
+    display: flex;
+    margin-left: 350px;
+}
+
+.tweetersecond {
+    display: flex;
+    
+
+}
+#onezero2{
+
 }
