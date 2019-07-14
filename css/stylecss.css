@@ -1,6 +1,6 @@
 body{
     width: 100%;
-    font-family: 'EB Garamond', serif;
+    font-family: 'Encode Sans', sans-serif;
 }
 
 a {
@@ -196,33 +196,37 @@ p {
     display: inline;
     display: flex;
     margin-left: 550px;
-    
+    font-family: 'Open Sans Condensed', sans-serif;
 }
-
+/*tweetersecond*/
 .tweetersecond {
-    
-    width: 400px;
-    
-
+    line-height: 15px;
+    width: 320px;
+    display: flex;
 }
-input {
+.text2{
     
-
+}
+#follow2 {
+ display: flex;
+ float: right;
+ padding-left: 50px;
 }
 #ident2{
-   border-radius: 50%;
-    float: left;
+   
+    border-radius: 50%;
+    
 }
 .tweetersecond span{
     color: rgb(179, 169, 169);
 }
 
-
+/*onezero2*/
 
 .onezero2{
-    
-    
-    width: 200px;
+    line-height: 15px;
+    width: 320px;
+    display: flex;
     padding-left: 200px;
     
 }
