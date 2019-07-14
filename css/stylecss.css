@@ -107,7 +107,7 @@ input {
     padding: 0px 330px;
     letter-spacing: .6px;
 }
-.text span {
+span.Y {
     float: left;
     font-size: 60px;
     border-radius: 50%;
@@ -195,14 +195,89 @@ p {
     padding-top: 40px;
     display: inline;
     display: flex;
-    margin-left: 350px;
+    margin-left: 550px;
+    
 }
 
 .tweetersecond {
-    display: flex;
+    
+    width: 400px;
     
 
 }
-#onezero2{
+input {
+    
 
+}
+#ident2{
+   border-radius: 50%;
+    float: left;
+}
+.tweetersecond span{
+    color: rgb(179, 169, 169);
+}
+
+
+
+.onezero2{
+    
+    
+    width: 200px;
+    padding-left: 200px;
+    
+}
+#oz{
+    border-radius: 5%;
+}
+
+
+/*banniere pub*/
+
+
+.banniere2{
+    
+    display: flex;
+    margin-left: 400px;
+    text-align: left;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.banniere2 span{
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+    
+}
+.banniere2 div img{
+    width: 300px;
+    border-radius: 2%;
+    
+    padding-left: auto;
+    margin-top: 30px;
+    
+}
+.banniere2 p{
+    line-height: 20px;
+    color: rgb(184, 178, 178);
+    font-size: 12px;
+}
+.banniere2 div {
+   margin: 30px;
+}
+
+
+/*font*/
+#italik{
+    font-style: italic;
+}
+
+#p1{
+    margin: 50px 0px;
+    font-style: italic;
+    font-size: 25px;
+    padding-left: 40px;
+    font-family: 'Encode Sans', sans-serif;
+}
+
+#bold{
+    font-weight: bold;
 }
